@@ -6,9 +6,6 @@ var ImageSrc = "images/" + DiceImage;
 
  document.querySelectorAll("img")[0].setAttribute("src", ImageSrc);
 
-
-
-
 var randomNumber2 = Math.floor(Math.random() * 6) + 1;
 
 var ImageSrc2 = "images/dice" + randomNumber2 + ".png";
